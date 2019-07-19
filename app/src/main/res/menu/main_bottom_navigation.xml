@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bm_home"
+        android:icon="@drawable/bottom_menu_home"
+        android:title="首页"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/bm_sell"
+        android:icon="@drawable/bottom_menu_sell"
+        android:title="出售" />
+    <item
+        android:id="@+id/bm_msg"
+        android:icon="@drawable/bottom_menu_message"
+        android:title="消息" />
+    <item
+        android:id="@+id/bm_my"
+        android:icon="@drawable/bottom_menu_my"
+        android:title="我的" />
+
+</menu>
